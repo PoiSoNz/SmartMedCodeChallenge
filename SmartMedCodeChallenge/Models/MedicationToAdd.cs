@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 namespace SmartMedCodeChallenge.Models
 {
     /// <summary>
-    /// A medication that to be added just needs a name and a quantity. No creation date is needed.
+    /// A medication to be added just needs name and quantity. No creation date is needed.
     /// </summary>
     public class MedicationToAdd
     {
