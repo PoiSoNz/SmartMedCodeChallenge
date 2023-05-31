@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -11,8 +9,6 @@ namespace SmartMedCodeChallenge.Models
     [Table("Medication", Schema = "dbo")]
     public class Medication
     {
-        //public int? Id { get; set; }
-
         [Key]
         public string Name { get; set; }
 

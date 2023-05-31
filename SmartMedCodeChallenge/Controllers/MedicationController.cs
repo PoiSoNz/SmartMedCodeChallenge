@@ -57,7 +57,7 @@ namespace SmartMedCodeChallenge.Controllers
 
         /// <summary>
         /// Deletes medication with given name from the database.
-        /// If there's no medication with given name, throw an error.
+        /// If there's no medication with given name, throws an error.
         /// </summary>
         [HttpDelete]
         [Route("medication/{name}")]

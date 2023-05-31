@@ -1,18 +1,12 @@
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SmartMedCodeChallenge.Models
 {
     /// <summary>
-    /// Each medication must have a name, a quantity and a creation date.
+    /// A medication that to be added just needs a name and a quantity. No creation date is needed.
     /// </summary>
-    [Table("Medication", Schema = "dbo")]
     public class MedicationToAdd
     {
-        //public int? Id { get; set; }
-
         [Key]
         public string Name { get; set; }
 
