@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="599434c7-6d99-4ac6-8057-c7793b47e1d3" ChangeDateTime="05/27/2023 23:06:57">
+    <Property Name="ElementName" Value="[dbo].[Medication].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Medication]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MedicationId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e586155d-9bfa-4b20-826e-b6ca1ccd0309" ChangeDateTime="05/27/2023 23:07:51">
+    <Property Name="ElementName" Value="[dbo].[Medication].[name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Medication]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="62c49a97-77e3-4fb3-99e9-06f64c706aa6" ChangeDateTime="05/27/2023 23:28:13">
+    <Property Name="ElementName" Value="[dbo].[CK_Medication_Quantity]" />
+    <Property Name="ElementType" Value="SqlCheckConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Medication]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[CkMedication_Quantity]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e77a259e-7f75-404e-8eca-f6f6e7936584" ChangeDateTime="05/27/2023 23:32:42">
+    <Property Name="ElementName" Value="[dbo].[CkMedication_Quantity]" />
+    <Property Name="ElementType" Value="SqlCheckConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Medication]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[CkMedication_QuantityGreaterThanZero]" />
+  </Operation>
+</Operations>
